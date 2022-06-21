@@ -1,0 +1,4 @@
+<button [disabled]="loading || disabled" [type]="type" color="primary" fxLayoutAlign="center center" mat-stroked-button>
+	<mat-spinner *ngIf="loading; else not_loading" diameter="20" mode="indeterminate"></mat-spinner>
+	<ng-template #not_loading>{{text}}</ng-template>
+</button>
