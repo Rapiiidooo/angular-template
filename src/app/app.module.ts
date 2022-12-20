@@ -5,7 +5,6 @@ import { RoutingModule } from './common/modules/routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './components/login/login.component';
-import { FlexModule } from '@angular/flex-layout';
 import { ReactiveFormsModule } from '@angular/forms';
 import { StoresModule } from './common/modules/stores.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
@@ -25,7 +24,6 @@ import { MaterialModule } from './common/modules/material.module';
 		BrowserAnimationsModule,
 		MaterialModule,
 		StoresModule,
-		FlexModule,
 		ReactiveFormsModule,
 		EffectsModule.forRoot([]),
 		JwtModule.forRoot({

@@ -1,7 +1,7 @@
-<div class="hw-100" fxLayoutAlign="center center">
+<div class="hw-100 flex items-center justify-center">
 	<mat-card>
 		<form (ngSubmit)="onSubmit()" [formGroup]="loginForm">
-			<div fxLayout="column" fxLayoutGap="1em">
+			<div class="flex flex-col gap-1">
 				<mat-form-field appearance="fill">
 					<mat-label>Enter your username</mat-label>
 					<input formControlName="username" matInput type="text" />
